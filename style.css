@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1vw;
+  background: #111;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+grid {
+  display: inline-grid;
+  padding: 2rem;
+  background: #222;
+  grid-template-columns: repeat(4, 20rem);
+  column-gap: 1rem;
+  row-gap: 1rem;
+  margin: 4rem auto;
+  font-size: 3rem;
+}
+
+cell {
+  padding: 2rem;
+  background: #444;
+}
